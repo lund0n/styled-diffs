@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`custom.button 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0.5rem 0;
+  margin: 0.5rem 1rem;
+  border: 2px solid papayawhip;
+  background-color: papayawhip;
+  color: steelblue;
+  width: 11rem;
+}
+
+<button
+  class="glamor-0"
+>
+  A button
+</button>
+`;
+
+exports[`default.button 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0.5rem 0;
+  margin: 0.5rem 1rem;
+  border: 2px solid papayawhip;
+  background-color: steelblue;
+  color: papayawhip;
+  width: 11rem;
+}
+
+<button
+  class="glamor-0"
+>
+  A Button
+</button>
+`;
+
+exports[`html.button 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0.5rem 0;
+  margin: 0.5rem 1rem;
+  border: 2px solid papayawhip;
+  background-color: steelblue;
+  color: papayawhip;
+  width: 100px;
+}
+
+<button
+  class="glamor-0"
+>
+  A button
+</button>
+`;

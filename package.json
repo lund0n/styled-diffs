@@ -1,0 +1,40 @@
+{
+  "name": "styled-diffs",
+  "version": "1.0.0",
+  "description": "Shows the differences between Glamorous and Styled Components",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.1.1",
+    "enzyme-adapter-react-15": "^1.0.5",
+    "enzyme-to-json": "^3.2.2",
+    "jest": "^21.2.1",
+    "jest-glamor-react": "^3.2.1",
+    "jest-styled-components": "^4.9.0",
+    "react-test-renderer": "^16.0.0"
+  },
+  "dependencies": {
+    "glamor": "^2.20.40",
+    "glamorous": "^4.11.0",
+    "prop-types": "^15.6.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "^2.2.3"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/jestSetup.js",
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  }
+}
